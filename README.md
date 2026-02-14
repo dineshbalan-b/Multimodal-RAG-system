@@ -80,16 +80,32 @@ npm run dev
 
 ## 🗺️ Project Structure
 
+![Project Architecture](./assets/architecture.jpeg)
+
 ```text
-├── backend/
-│   ├── utils/          # CLIP, FAISS, and OCR logic
-│   ├── metadata/       # Item descriptions and CSVs
-│   ├── embeddings/     # Pre-computed vector indices
-│   └── main.py         # FastAPI Endpoints
-├── frontend/
-│   ├── src/components/ # UI Modules (AuraCursor, ResultsGrid, etc.)
-│   └── App.jsx         # Main Logic & State Management
-└── README.md
+├── assets/                   # Documentation assets (Architecture, UI, etc.)
+├── backend/                  # FastAPI Application Root
+│   ├── data/                 # Raw jewelry image dataset
+│   ├── embeddings/           # Pre-computed FAISS vector indices
+│   ├── metadata/             # item.csv and processed metadata
+│   ├── scripts/              # Data ingestion and indexing scripts
+│   ├── utils/                # AI logic (CLIP, OCR, Hybrid Search)
+│   ├── main.py               # API Endpoints and logic
+│   ├── requirements.txt      # Python dependencies
+│   └── run.py                # Server entry point
+│
+├── frontend/                 # React (Vite) Application Root
+│   ├── src/
+│   │   ├── components/       # UI Modules (AuraCursor, ResultsGrid, etc.)
+│   │   ├── assets/           # Static images and icons
+│   │   ├── App.jsx           # Application state and search logic
+│   │   ├── index.css         # Global styles and Tailwind imports
+│   │   └── main.jsx          # React entry point
+│   ├── index.html            # HTML template
+│   ├── package.json          # Node.js dependencies
+│   └── tailwind.config.js    # Tailwind CSS configuration
+│
+└── README.md                 # Project documentation
 ```
 
 ---
