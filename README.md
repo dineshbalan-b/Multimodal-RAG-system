@@ -1,20 +1,20 @@
-# 💎 JewelUX: Next-Gen Multimodal Jewelry Search
+# JewelUX: Next-Gen Multimodal Jewelry Search
 
 JewelUX is a premium, AI-driven jewelry recommendation system that redefines how users discover luxury items. By combining state-of-the-art Computer Vision (**CLIP**) with lightning-fast vector search (**FAISS**), JewelUX enables a truly multimodal search experience—find your perfect piece through text, images, hand-drawn sketches, or even handwriting.
 
-## ✨ Key Features
+## Key Features
 
-- **🌈 Multimodal Search Engine**: 
+- ** Multimodal Search Engine**: 
   - **Text-to-Image**: Describe what you want ("Gold necklace with rubies").
   - **Image Similarity**: Upload a photo to find visually matching jewelry.
   - **Sketch-to-Item (SBIR)**: Draw a rough sketch and see it come to life.
   - **Handwriting Search**: Upload a handwritten note or tag to search for specific items.
-- **� Real-time Market Ticker**: Live simulated rates for Gold, Silver, and Diamonds directly in the header.
-- **✨ Liquid Gold UI**: A high-end aesthetic featuring glassmorphism, holographic interactions, and custom "Aura Cursor" tracking.
-- **🏷️ Dynamic Smart Tags**: Automatically generated search suggestions based on current inventory metadata.
-- **🔍 Deep Insights**: Interactive product modals with similarity-based recommendations.
+- **Real-time Market Ticker**: Live simulated rates for Gold, Silver, and Diamonds directly in the header.
+- ** Liquid Gold UI**: A high-end aesthetic featuring glassmorphism, holographic interactions, and custom "Aura Cursor" tracking.
+- ** Dynamic Smart Tags**: Automatically generated search suggestions based on current inventory metadata.
+- ** Deep Insights**: Interactive product modals with similarity-based recommendations.
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 ### **Backend (Python / FastAPI)**
 - **AI Engine**: [OpenAI CLIP](https://github.com/openai/CLIP) for cross-modal embeddings.
@@ -27,7 +27,7 @@ JewelUX is a premium, AI-driven jewelry recommendation system that redefines how
 - **Animations**: [Framer Motion](https://www.framer.com/motion/) for fluid transitions and interactive components.
 - **Networking**: Axios for seamless API integration with the FastAPI backend.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.9+ 
@@ -78,7 +78,7 @@ npm run dev
 ```
 *Runs on `http://localhost:5173`*
 
-## 🗺️ Project Structure
+##  Project Structure
 
 ![Project Architecture](./assets/architecture.jpeg)
 
